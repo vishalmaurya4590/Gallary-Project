@@ -1,16 +1,42 @@
-# React + Vite
+# 📸 React Gallery App
+A simple and responsive image gallery built with **React.js** that fetches images from a public API. The application displays high-quality images along with the photographer's name and allows users to browse through different pages using **Next** and **Previous** buttons.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
+* Fetches images from a public image API
+* Displays image previews with photographer names
+* Pagination using **Next** and **Previous** buttons
+* Responsive and clean user interface
+* Built using React functional components and hooks
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+* React.js
+* JavaScript (ES6+)
+* CSS
+* Public Image API
+* Fetch API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📂 Project Structure
+```
+src/
+├── components/
+├── App.jsx
+├── main.jsx
+├── App.css
+└── index.css
+```
 
-## React Compiler
+## 📖 How It Works
+* When the application loads, it sends a request to a public image API.
+* The API returns a list of images along with photographer information.
+* Images are displayed in a gallery layout.
+* Users can navigate through different pages using the **Next** and **Previous** buttons, which fetch a new set of images.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎯 Future Improvements
+* Search images by keyword
+* Filter images by category
+* Infinite scrolling
+* Image download option
+* Image preview in a modal
+* Dark mode
+* Loading skeletons and better error handling
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
